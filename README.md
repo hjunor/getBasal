@@ -1,7 +1,12 @@
 <h1 align="center" color="red">
 <h4 align="center">
-  <img src='./images/logo.png' width='50%' heigth='50%' border-radius='8px'>
+  <img src='./images/logo.png' width='50%' heigth='50%'>
 </h4>
+<style>
+ h4 img{
+  border-radius: 8px ;
+  }
+</style>
 </h1>
 
 
