@@ -1,7 +1,5 @@
-<h1 align="center" color="red">
-<h4 align="center">
-  # GetBasal
-</h4>
+<h1 align="center">
+ GetBasal
 </h1>
 
 
