@@ -1,6 +1,6 @@
 <h1 align="center" color="red">
 <h4 align="center">
-  <img src='./images/logo.png' width='50%' heigth='50%' border-radius='8px'>
+  # GetBasal
 </h4>
 </h1>
 
