@@ -25,7 +25,7 @@ Esse projeto é para determinar a taxa de metabolismo basal, com isso o usuário
 
 
 <h4 align="center">
-  <img src='./images/print.png'>
+  <img src='./images/print.png' width='50%' heigth='50%'>
 </h4>
 
 ## 🤔 Como contribuir
