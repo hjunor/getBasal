@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Esse projeto é para determinar a taxa de metabolismo basal, com isso o usuário consegue determinar quantas calorias tem que consumir para ganho ou perca de peso.
-link : [GetBasal]9https://getbasal.netlify.app/)
+link : [GetBasal](https://getbasal.netlify.app/)
 
 <h4 align="center">
   <img src='./images/print.png' width='50%' heigth='50%'>
