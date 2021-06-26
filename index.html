@@ -1,91 +1,208 @@
 <html lang="en">
   <head>
-	<title>GetBasal</title>
+    <title>GetBasal</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-<!--===============================================================================================-->
-<!--===============================================================================================-->
-<!--===============================================================================================-->
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     <title>Hello, world!</title>
   </head>
   <body>
- 
+    <div class="container-left">
+      <div class="wrap-container">
+        <h1>O que é metabolismo basal e como ele interfere no peso?</h1>
+        <p>
+          Derivada do Grego metabole, que significa “mudança”, a palavra
+          metabolismo é utilizada para descrever todos os processos químicos que
+          ocorrem continuamente dentro do nosso corpo para que possamos nos
+          manter vivos.
+        </p>
+        <p>
+          A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para
+          manter as funções do organismo em repouso, como os batimentos
+          cardíacos, a pressão arterial, a respiração e a manutenção da
+          temperatura corporal.
+          <br />
+        </p>
+        <ul>
+          <li>
+            Taxa metabólica = velocidade com que o organismo está utilizando os
+            estoques de energia;
+          </li>
+          <li>
+            Taxa metabólica basal (TMB) = exigências energéticas necessárias à
+            manutenção da vida;
+          </li>
+          <li>
+            Taxa metabólica de repouso (TMR) = superior a TMB, pois considera
+            atividade muscular anterior. REPOUSO:
+          </li>
+        </ul>
 
-	<div class="container-contact100">
+        <p>
+          TMB Homens = 66,5 + (13,7 x peso em Kg) + (5 x altura em cm ) + (6.8 X idade em anos)
+          <br>
+          TMB Mulheres = 655,1 + (9,6,75 x peso em Kg) + (1,8 x altura em cm ) + (4.7 X idade em anos)
+        </p>
+      </div>
 
-		<div class="wrap-contact100">
-			<form id="form" class="contact100-form validate-form">
-				<span class="contact100-form-title">
-					GetBasal
-				</span>
+      <div class="wrap-questions">
+        <div class="primary-question">
+          <h4>
+            Para não ser considerado sedentário, o indivíduo precisa fazer
+            atividades moderadas
+          </h4>
+          
+          <div id="question">
+            <span id="questionOneA">
+              <input type="radio" name="questionOne"  /> 2 vezes por semana
+              durante 30 minutos
+            </span>
 
-				<div class="wrap-input100 " >
-     			<select class="input200" id='gender'>
-						<option class="option" value="male">Maculino</option>
-						<option class="option" value="female">Feminino</option>
-					</select>
-				</div>
+            <span id="questionOneB">
+              <input type="radio" name="questionOne"  /> 4 vezes por semana durante
+              40 minutos</span>
 
-				<div class="wrap-input100 " >
-					<input class="input100" type="number" id="age" placeholder="Sua idade">
-				</div>
+            <span id="questionOneC">
+              <input type="radio" name="questionOne"/> 5 vezes por semana durante
+              30 minutos</span>
 
-				<div class="wrap-input100 " >
-					<input class="input100" type="number" id="weight" placeholder="Seu peso">
-				</div>
+            <span id="questionOneD">
+              <input type="radio" name="questionOne"  /> 2 vezes por semana durante
+              50 minutos</span>
+          </div>
+        </div>
+        <hr>
+        <div class="secundary-question">
+          <h4>
+           Qual a quantidade média de aguá que nos deveríamos beber.
+          </h4>
+          
+          <div id="questionTwo">
+            <span id="questionTwoA">
+              <input type="radio" name="questionTwo"  /> 2 litro por dia</span>
 
-				<div class="wrap-input100 " >
-					<input class="input100" type="number" id="height" placeholder="Sua Altura">
-				</div>
+            <span id="questionTwoB" >
+              <input type="radio" name="questionTwo" /> Meio litro por dia</span>
 
-				<div class="wrap-input100 validate-input" >
-					<select class="input200" id='activity_level'>
-						<option value="1.2">Sendentario</option>
-						<option value="1.375">Pouca atividade</option>
-						<option value="1.55">Atividade moderada</option>
-						<option value="1.725">Atividade intensa</option>
-						<option value="1.9">Atividade Muito intensa</option>
-					</select>
-				</div>
+            <span id="questionTwoC" >
+              <input type="radio" name="questionTwo" /> 4 copos de aguá</span>
 
-				<div class="container-contact100-form-btn">
-					<button type="submit" class="contact100-form-btn">
-							Calcular
-					</button>
-				</div>
-				
-			</form>
-			<div class="cont" id="cont">
-				
-			</div>
-		</div>
-	</div>
+            <span id="questionTwoD">
+              <input type="radio" name="questionTwo"  /> 5 litros por dia</span>
+          </div>
 
+          
+        </div>
+         <button type="button" id="button">Ver Resposta</button>
+        </div>
+      </div>
+    </div>
 
+    <div class="container-contact100">
+      <div class="wrap-contact100">
+        <form id="form" class="contact100-form validate-form">
+          <span class="contact100-form-title"> GetBasal </span>
+
+          <div class="wrap-input100">
+            <select class="input200" id="gender">
+              <option class="option" value="male">Maculino</option>
+              <option class="option" value="female">Feminino</option>
+            </select>
+          </div>
+
+          <div class="wrap-input100">
+            <input
+              class="input100"
+              type="number"
+              id="age"
+              placeholder="Sua idade"
+            />
+          </div>
+
+          <div class="wrap-input100">
+            <input
+              class="input100"
+              type="number"
+              id="weight"
+              placeholder="Seu peso em Kg"
+            />
+          </div>
+
+          <div class="wrap-input100">
+            <input
+              class="input100"
+              type="number"
+              id="height"
+              placeholder="Sua Altura em cm"
+            />
+          </div>
+
+          <div class="wrap-input100 validate-input">
+            <select class="input200" id="activity_level">
+              <option value="1">Sendentario</option>
+              <option value="1.375">Pouca atividade</option>
+              <option value="1.55">Atividade moderada</option>
+              <option value="1.725">Atividade intensa</option>
+              <option value="1.9">Atividade Muito intensa</option>
+            </select>
+          </div>
+
+          <div class="container-contact100-form-btn">
+            <button type="submit" class="contact100-form-btn">Calcular</button>
+          </div>
+        </form>
+        <div class="cont" id="cont"></div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-	<script src="js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--===============================================================================================-->
+    <script src="js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
