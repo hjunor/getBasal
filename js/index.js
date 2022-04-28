@@ -19,7 +19,7 @@ function handleSubmit(event) {
 
   const activity_level = parseFloat(handleValue("activity_level"));
 
-  if (age && weight && height && gender && activity_level) {
+  if (!age && !weight && !height && !gender && isNaN(activity_level)) {
     const result = document.createElement("div");
     result.innerHTML = "Preencha todos os campos!";
 
@@ -35,7 +35,8 @@ function handleSubmit(event) {
     const loseWeight = maintenance - 450;
 
     const gainWeight = maintenance + 450;
-    const result = document.createElement("div");
+
+    const result = document.createElement("div"); //crio o elemento
 
     const layout = `
         <div class="resultDiv">
@@ -45,10 +46,11 @@ function handleSubmit(event) {
             <h4 class="result">Manter o peso: <span>${maintenance} calorias </span>.</h4>
             <h4 class="result">Ganhar peso: <span>${gainWeight} calorias </span>.</h4>
             <h4 class="result">Perde peso: <span>${loseWeight} calorias </span>.</h4>
-        </div>`;
+        </div>`; //dados do elemento
     result.innerHTML = layout;
 
     return document.getElementById("cont").appendChild(result);
+    // passo o elemento para o par que tem id #cont
   }
 }
 
